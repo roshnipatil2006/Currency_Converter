@@ -26,6 +26,6 @@ Currency Converter 💱🌍 is a sleek web app that converts currencies in real-
 
 ## Demo 🔗
 
-Check out the live version here: [Your Demo Link](https://your-demo-link.com)
+Check out the live version here: https://your-demo-link.com)](https://roshnipatil2006.github.io/Currency_Converter/
 ---
 Enjoy the **Currency Converter**! 💸💡
