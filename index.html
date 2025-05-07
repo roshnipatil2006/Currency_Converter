@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Roshni Patil" />
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h2>Currency Converter</h2>
+        </header>
+
+        <form onsubmit="getExchangeRate(event)" id="currency-form">
+            <div class="currency-container">
+                <div class="currency">
+                    <label for="fromCurrency">From</label>
+                    <div class="select-container">
+                        <img id="fromFlag" src="https://flagsapi.com/US/flat/64.png" alt="From Flag" />
+                        <select id="fromCurrency" onchange="updateFlag('from')"></select>
+                    </div>
+                </div>
+
+                <div class="currency">
+                    <label for="toCurrency">To</label>
+                    <div class="select-container">
+                        <img id="toFlag" src="https://flagsapi.com/IN/flat/64.png" alt="To Flag" />
+                        <select id="toCurrency" onchange="updateFlag('to')"></select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="msg" id="msg"></div>
+            <button type="submit" class="btn">Get Exchange Rate</button>
+        </form>
+
+        <footer>
+            © 2025 Roshni Patil. All rights reserved.
+        </footer>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
